@@ -45,5 +45,15 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+		var x = document.getElementById('ac');
+		function s(a) { x.textContent = a.x;}
+function onError() {
+    alert('onError!');
+}
+
+var options = { frequency: 1000 };  // Update every 3 seconds
+
+var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+		
     }
 };
