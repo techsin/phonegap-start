@@ -82,7 +82,7 @@
 	
 	-->
     
-    <gap:splash src="res/screen/android/splash.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/splash.png"  gap:platform="android"/>
     <!--
         Define access to external domains.
 
